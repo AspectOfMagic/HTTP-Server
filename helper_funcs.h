@@ -8,11 +8,11 @@
  */
 typedef struct {
 
-    /** @brief The socket for the listening connection. Note: do not use
+  /** @brief The socket for the listening connection. Note: do not use
    *         this directly! Take a look at listener_init and
    *         listener_accept instead!
    */
-    int fd;
+  int fd;
 } Listener_Socket;
 
 /** @brief Initializes a listener socket that listens on the provided
