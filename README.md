@@ -12,7 +12,7 @@ You will need Linux x86_64
 
 ==========[Usage]
 
-$ ./httpserver [-t threads] <port>
+$ ./httpserver [-t threads] \<port\>
 
 - threads: number of worker threads to use. This argument is optional(defaulting to 4).
 - port: required argument that specifies which port the server will be listening on.
